@@ -8,6 +8,10 @@ export default function Navbar() {
         <Link href="/" className={styles.navbarTitle}>
           Evermos Katalog
         </Link>
+
+        <Link href="/favorite" className={styles.navbarMenu}>
+          Favorite
+        </Link>
       </div>
     </nav>
   );

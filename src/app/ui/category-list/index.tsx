@@ -12,8 +12,6 @@ export async function getData() {
 export default async function CategoryList() {
   const category = await getData();
 
-  console.log({ category });
-
   return (
     <>
       <div className={styles.categoryTitle}>

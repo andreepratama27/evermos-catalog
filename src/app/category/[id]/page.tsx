@@ -1,4 +1,4 @@
-import { getCategoryDetail } from "@/app/services/product.service";
+import { getCategoryDetail, getProduct } from "@/app/services/product.service";
 import Image from "next/image";
 import AppWrapper from "@/app/ui/app-wrapper";
 import styles from "./page.module.scss";
@@ -9,8 +9,14 @@ export async function getData({ id }: { id: number }) {
   return response;
 }
 
+export async function getProductData() {
+  const response = await getProduct();
+  return response;
+}
+
 export default async function Category({ params }: { params: { id: number } }) {
   const data = await getData({ id: params.id });
+  const product = await getProduct();
 
   return (
     <AppWrapper>
@@ -22,7 +28,9 @@ export default async function Category({ params }: { params: { id: number } }) {
         </div>
       </div>
 
-      <ProductList />
+      <div className={styles.categoryTitle}>List Produk</div>
+
+      <ProductList data={product} />
     </AppWrapper>
   );
 }

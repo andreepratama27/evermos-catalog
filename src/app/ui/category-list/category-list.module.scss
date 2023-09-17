@@ -1,3 +1,19 @@
+@media (width < 500px) {
+  .categoryTitle {
+    padding: 0 20px;
+  }
+  .categorySlider {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 20px;
+  }
+}
+
+@media (width > 500px) {
+  .categorySlider {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .categoryTitle {
   p {
     font-size: 20px;
@@ -8,7 +24,7 @@
 .categorySlider {
   display: grid;
   gap: 4px;
-  grid-template-columns: repeat(3, 1fr);
+  // grid-template-columns: repeat(2, 1fr);
   margin-bottom: 24px;
   overflow-x: auto;
 
