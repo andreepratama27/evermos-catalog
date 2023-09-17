@@ -5,7 +5,6 @@ import Image from "next/image";
 
 export async function getData() {
   const response = await getCategory();
-
   return response;
 }
 
