@@ -1,5 +1,6 @@
 # How to run this project
 
+You can visit [https://evermos-catalog.vercel.app/](https://evermos-catalog.vercel.app/) to open via browser, or if you want to run locally, run this command:
 - Clone this project to your machine. Make sure you already have Node on your machine
 - Install this project with command `npm install`, `yarn install`, `pnpm install` or `bun install`. For my case, I use `bun install`
 
