@@ -1,0 +1,110 @@
+{
+  "products": [
+
+    {
+      "id": 1,
+      "title": "Katalog Produk 1",
+      "description": "lIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making",
+      "price": 20000
+    },
+    {
+      "id": 2,
+      "title": "Katalog Produk 2",
+      "description": "lIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making",
+      "price": 15000
+    },
+    {
+      "id": 3,
+      "title": "Katalog Produk 3",
+      "description": "lIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making",
+      "price": 25000
+    },
+    {
+      "id": 4,
+      "title": "Katalog Produk 4",
+      "description": "lIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making",
+      "price": 20000
+    },
+    {
+      "id": 5,
+      "title": "Katalog Produk 5",
+      "description": "lIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making",
+      "price": 15000
+    },
+    {
+      "id": 6,
+      "title": "Katalog Produk 6",
+      "description": "lIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making",
+      "price": 25000
+    },
+
+    {
+      "id": 7,
+      "title": "Katalog Produk 7",
+      "description": "lIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making",
+      "price": 20000
+    },
+    {
+      "id": 8,
+      "title": "Katalog Produk 8",
+      "description": "lIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making",
+      "price": 15000
+    },
+    {
+      "id": 9,
+      "title": "Katalog Produk 9",
+      "description": "lIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making",
+      "price": 25000
+    },
+    {
+      "id": 10,
+      "title": "Katalog Produk 10",
+      "description": "lIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making",
+      "price": 20000
+    },
+    {
+      "id": 11,
+      "title": "Katalog Produk 11",
+      "description": "lIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making",
+      "price": 15000
+    },
+    {
+      "id": 12,
+      "title": "Katalog Produk 12",
+      "description": "lIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making",
+      "price": 25000
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Fashion",
+      "imgSrc": "https://img.freepik.com/free-photo/male-female-walking-different-directions_158595-5461.jpg?size=626&ext=jpg"
+    },
+    {
+      "id": 2,
+      "name": "Sneakers",
+      "imgSrc": "https://img.freepik.com/free-photo/beautiful-fashion-woman-posing-with-elegant-suit_1328-3305.jpg?size=626&ext=jpg"
+    },
+    {
+      "id": 3,
+      "name": "Hoodie",
+      "imgSrc": "https://img.freepik.com/free-photo/perky-girl-stylish-glasses-stares-amazement-walking-pink-wall-brunette-culottes-orange-blouse-posing-with-red-handbag_197531-14254.jpg?size=626&ext=jpg&ga=GA1.2.345481328.1694919181&semt=sph"
+    },
+    {
+      "id": 4,
+      "name": "Cargo Pants",
+      "imgSrc": "https://img.freepik.com/free-photo/black-turtleneck-t-shirt-men-s-business-wear_53876-104304.jpg?size=626&ext=jpg&ga=GA1.2.345481328.1694919181&semt=sph"
+    },
+    {
+      "id": 5,
+      "name": "Kids Fashion",
+      "imgSrc": "https://img.freepik.com/free-photo/full-shot-kids-posing-together_23-2149853383.jpg?size=626&ext=jpg&ga=GA1.2.345481328.1694919181&semt=ais"
+    },
+    {
+      "id": 6,
+      "name": "New Born",
+      "imgSrc": "https://img.freepik.com/free-photo/flat-lay-baby-clothes-with-photo-camera_23-2148251466.jpg?size=626&ext=jpg&ga=GA1.2.345481328.1694919181&semt=ais"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+.gridProduct {
+  display: grid;
+  grid-gap: 14px;
+}
+
+.searchWrapper {
+  padding: 0 0 24px 0;
+
+  .inputSearch {
+    width: 100%;
+    height: 40px;
+    padding: 8px 16px; 
+    border-radius: 4px;
+    border: 0;
+    background-color: #dadada;
+  }
+}
+
+.gridProductTitle {
+  p {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+}
+
+@media (min-width: 640px) {
+  .gridProduct {
+    padding: 0 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .gridProduct {
+    padding: 0;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

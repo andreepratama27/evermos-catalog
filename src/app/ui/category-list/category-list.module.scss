@@ -1,0 +1,44 @@
+.categoryTitle {
+  p {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+}
+
+.categorySlider {
+  display: grid;
+  gap: 4px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 24px;
+  overflow-x: auto;
+
+  .categorySliderGrid {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 140px;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+
+    img {
+      transition: transform .5s ease;
+    }
+
+    img:hover {
+      filter: grayscale(100%);
+      transform: scale(1.5);
+    }
+
+    .categoryGridTitle {
+      width: 80%;
+      background-color: #fff;
+      margin-bottom: 8px;
+      z-index: 1;
+      font-size: 14px;
+
+      text-align: center;
+    }
+  }
+}
