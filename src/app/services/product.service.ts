@@ -1,6 +1,8 @@
+import { ApiUrl } from "../lib/constants";
+
 export async function getProduct(): Promise<Product[]> {
   try {
-    const response = await fetch("http://localhost:3001/products");
+    const response = await fetch(`${ApiUrl}/products`);
     const result = await response.json();
 
     return result;
@@ -11,7 +13,7 @@ export async function getProduct(): Promise<Product[]> {
 
 export async function getCategory(): Promise<Category[]> {
   try {
-    const response = await fetch("http://localhost:3001/category");
+    const response = await fetch(`${ApiUrl}/category`);
     const result = await response.json();
 
     return result;
@@ -26,7 +28,7 @@ export async function getCategoryDetail({
   id: number;
 }): Promise<Category> {
   try {
-    const response = await fetch(`http://localhost:3001/category/${id}`);
+    const response = await fetch(`${ApiUrl}/category/${id}`);
     const result = await response.json();
 
     return result;
@@ -41,7 +43,7 @@ export async function getProductDetail({
   id: number;
 }): Promise<Product> {
   try {
-    const response = await fetch(`http://localhost:3001/products/${id}`);
+    const response = await fetch(`${ApiUrl}/products/${id}`);
     const result = await response.json();
 
     return result;
